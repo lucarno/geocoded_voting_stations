@@ -18,8 +18,6 @@ register_google('') # insert your API key here
 
 local_short[,address:=paste0(DS_ENDERECO,", ",NM_LOCALIDADE,", ",SG_UF,sep="")]
 
-#https://stackoverflow.com/questions/30770328/how-to-handle-error-from-geocode-ggmap-r
-
 remaining <- local_short[1:nrow(local_short)]
 
 for(i in 1:nrow(remaining)){
