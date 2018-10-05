@@ -39,6 +39,6 @@ for(i in 1:nrow(remaining)){
 
 geo_voting = remaining[!is.na(geoAddress)]
 
-write.table(geo_voting,'~/Dropbox/Working papers/2015 policia/data/geo_voting.txt')
+write.table(geo_voting,'~/geo_voting.txt')
 
 
