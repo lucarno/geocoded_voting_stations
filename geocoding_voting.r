@@ -12,7 +12,7 @@ local[,c('NR_LOCVOT','CD_PROCESSO_ELEITORAL','CD_PLEITO','NR_SECAO'):=NULL] #thi
 
 local <- unique(local)
 
-local_short = copy(local)
+local_short <- copy(local)
 
 register_google('') # insert your API key here
 
