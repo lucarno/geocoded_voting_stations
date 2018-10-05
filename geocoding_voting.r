@@ -4,7 +4,6 @@
 rm(list = ls())
 library(ggmap)
 library(data.table)
-library(dplyr)
 
 local <- fread('~/Dropbox/Working papers/2015 policia/data/locais_voto_2016.csv',encoding = 'UTF-8')
 
