@@ -1,7 +1,7 @@
 # geocoded_voting_stations
 Geocodes voting stations in Brazil
 
-You will need a google API key. Go to Google Cloud Platform to get one. Don't forget to enable the Geocoding API
+You will need a google API key. Go to Google Cloud Platform to get one. Don't forget to enable the Geocoding API.
 
 The list of all voting stations come from here: https://drive.google.com/file/d/0B85iHUpDSZB5elVFd2R1XzAzX1U/view
 
