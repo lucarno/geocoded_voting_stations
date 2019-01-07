@@ -5,7 +5,7 @@ rm(list = ls())
 library(ggmap)
 library(data.table)
 
-local <- fread('~/Dropbox/Working papers/2015 policia/data/locais_voto_2016.csv',encoding = 'UTF-8')
+local <- fread('~/locais_voto_2016.csv',encoding = 'UTF-8')
 
 local[,c('NR_LOCVOT','CD_PROCESSO_ELEITORAL','CD_PLEITO','NR_SECAO'):=NULL] #this removes multiple locais de votacao that are in the same address
 
